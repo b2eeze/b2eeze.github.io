@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="description" content="your web description" />
+<meta name="description" content="欢迎来到我的博客🎉" />
 <meta name="keywords" content="your web keywords, another keywords" />
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/media.css">
@@ -54,7 +54,7 @@ var _hmt = _hmt || [];
 <header id="post-header" style="background-color:rgb(255,90,90);">
   <div class="top-center">
       <div class="logo">
-          <a href="/" title="my awesome webtitle" style="color: white;">your awesome webtitle</a>
+          <a href="/" title="my awesome webtitle" style="color: white;">b2eeze</a>
       </div>
       <nav class="top-nav">
           <ul>
@@ -213,29 +213,26 @@ var _hmt = _hmt || [];
 
 
 
-    <section class="post-footer-item comment">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDI2OS8xMDgwNg=="></div>
-    </section>
-
-    <!-- 来必力City版安装代码 -->
-    <script type="text/javascript">
-       (function(d, s) {
-           var j, e = d.getElementsByTagName(s)[0];
-
-           if (typeof LivereTower === 'function') { return; }
-
-           j = d.createElement(s);
-           j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-           j.async = true;
-
-           e.parentNode.insertBefore(j, e);
-       })(document, 'script');
-    </script>
-    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-    <!-- City版安装代码已完成 -->
 
 
+<section class="post-footer-item comment">
+  <div id="container"></div>
+</section>
 
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '/2018/05/17/welcome-to-jekyll', // 可选。默认为 location.href
+  owner: '',
+  repo: '',
+  oauth: {
+    client_id: '',
+    client_secret: '',
+  },
+})
+gitment.render('container')
+</script>
 
 
 <!-- 引入goto模块 -->
@@ -245,7 +242,7 @@ var _hmt = _hmt || [];
         Top
     </div>
   </a>
-  <a title="底部有livere评论哦" class="gotobottom" href="#htmldown" target="_self">
+  <a title="底部有Gitment评论哦" class="gotobottom" href="#htmldown" target="_self">
     <div class="box" style="font-family:'ffad_matroregular';">
         Foot
     </div>
@@ -255,11 +252,8 @@ var _hmt = _hmt || [];
 <!-- 引入页面底部模块 -->
 <footer id="bottom">
   <br>
-  <span>your awesome title ©
+  <span>b2eeze的小站 ©
   
-  
-    2018
-    -
   
   2024
   <br>
