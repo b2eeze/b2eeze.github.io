@@ -18,9 +18,9 @@
 ##############################
 url: https://b2eeze.github.io/
 baseurl: /
-title: Qi's Site
+title: Breeze & Beyond
 description: >
-    Tian Qi's Site | 田琦的小站
+    b2eeze's Site | b2eeze 的小站
 
 
 ## => Language and Timezone
@@ -32,7 +32,7 @@ timezone: Asia/Shanghai
 ## => Author and Social
 ##############################
 author:
-  name: Tian Qi
+  name: b2eeze
   email: kitian616@outlook.com
   twitter: kitian616
   github:  kitian616
