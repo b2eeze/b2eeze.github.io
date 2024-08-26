@@ -118,23 +118,20 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: breeze-6 # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 'Ov23litK4PDC6s9h56FG'
-    clientSecret: '0e5bf1c715b88426ce23937f84408d1e71cc69d7'
-    repository  : 'b2eeze.github.io' # GitHub repo
-    owner       : 'b2eeze' # GitHub repo owner
-    admin: ['b2eeze'] # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-    id: 
-      - "2018-06-01-header-image"
-      - "2018-07-01-welcome"
+    clientID    : 
+    clientSecret: 
+    repository  :  # GitHub repo
+    owner       : # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
