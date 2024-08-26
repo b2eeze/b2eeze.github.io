@@ -55,14 +55,14 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: https://github.com/b2eeze/b2eeze.github.io
+repository: b2eeze/b2eeze.github.io
 repository_tree: main
 
 
 ## => Paths
 ##############################
 paths:
-  root    : # title link url, "/" (default)
+  root    : / # title link url, "/" (default)
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
@@ -127,10 +127,10 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : Ov23litK4PDC6s9h56FG
-    clientSecret: 0e5bf1c715b88426ce23937f84408d1e71cc69d7
-    repository  : b2eeze.github.io # GitHub repo
-    owner       : b2eeze # GitHub repo owner
+    clientID    : 'Ov23litK4PDC6s9h56FG'
+    clientSecret: '0e5bf1c715b88426ce23937f84408d1e71cc69d7'
+    repository  : 'b2eeze.github.io' # GitHub repo
+    owner       : 'b2eeze' # GitHub repo owner
     admin: ['b2eeze'] # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
     id: 
       - "2018-06-01-header-image"
