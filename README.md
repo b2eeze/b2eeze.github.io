@@ -1,12 +1,5 @@
-# [Breeze & Beyond](https://b2eeze.github.io/)
+# b2eeze.github.io
 
-记录学习点滴
+My Personal Website: [breeze & beyond](https://b2eeze.github.io/)
 
-
-
-```
-
-```
-
-
-
+Powered by [Jekyll](http://jekyllrb.com/) & [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme).
